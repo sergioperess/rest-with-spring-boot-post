@@ -1,4 +1,4 @@
-package com.example.exceptions;
+package com.example.restwithspringboot.exceptions;
 
 import java.io.Serializable;
 import java.util.Date;

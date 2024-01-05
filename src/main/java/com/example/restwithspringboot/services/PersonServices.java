@@ -1,11 +1,11 @@
-package com.example.services;
+package com.example.restwithspringboot.services;
 
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
 import org.springframework.stereotype.Service;
 
-import com.example.model.Person;
+import com.example.restwithspringboot.model.Person;
 
 // Utilizado pelo spring para injetar dados em outras classes durante a aplicação
 @Service

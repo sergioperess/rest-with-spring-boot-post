@@ -1,4 +1,4 @@
-package com.example.exceptions.handler;
+package com.example.restwithspringboot.exceptions.handler;
 
 import java.util.Date;
 
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.example.exceptions.ExceptionResponse;
-import com.example.exceptions.UnsupportedMathOpperationException;
+import com.example.restwithspringboot.exceptions.ExceptionResponse;
+import com.example.restwithspringboot.exceptions.UnsupportedMathOpperationException;
 
 // Utilizado para concentrar um tratamento que será espalhado em todos os controllers
 @ControllerAdvice

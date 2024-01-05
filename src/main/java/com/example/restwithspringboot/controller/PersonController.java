@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.restwithspringboot.controller;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.model.Person;
-import com.example.services.PersonServices;
+import com.example.restwithspringboot.model.Person;
+import com.example.restwithspringboot.services.PersonServices;
 
-@RequestMapping("/person")
+
 @RestController
+@RequestMapping("/person")
 public class PersonController {
 
     // Com isso o spring cuida da instanciação da variavel em tempo de execução
